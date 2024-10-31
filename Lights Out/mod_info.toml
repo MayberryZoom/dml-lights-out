@@ -1,0 +1,28 @@
+identifier = "mayberry.lights_out"
+
+patch_type = "py"
+patch_file = "lights_out.py"
+patch_class = "LightsOut"
+
+settings_dialog_file = "settings_dialog.py"
+settings_dialog_class = "LightsOutSettings"
+disabled_settings = [
+    "boss_lifebar",
+    "enemy_lifebar",
+    "player_damage",
+    "enemy_damage",
+    "death_counter",
+    "room_names",
+    "door"
+]
+
+name = "Lights Out"
+author = "Mayberry"
+version = "1.0.0"
+description = "Removes every light actor from the game.<br/>Optional extra patches available in mod settings."
+readme_path = "README.md"
+thumbnail = "thumbnail.png"
+
+[default_settings]
+default_skip_intro_checkbox = true
+default_emmi_dot_checkbox = false
